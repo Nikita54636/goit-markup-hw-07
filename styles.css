@@ -1591,7 +1591,7 @@ body {
   }
 
   .subscribe-container {
-    margin-left: 76px;
+    margin-left: 92px;
   }
 
   .container-footer {
@@ -1731,7 +1731,9 @@ body {
   main {
     padding-top: 70px;
   }
-
+  .phone1 {
+    margin-bottom: 40px;
+  }
   .name {
     font-size: 36px;
     line-height: 111%;
@@ -2335,5 +2337,10 @@ body {
       url(./images/hero/tab@2x.jpg);
   }
 }
-
+@media screen and (min-width: 1157px) {
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 /* footer */
